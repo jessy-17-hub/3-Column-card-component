@@ -1,0 +1,92 @@
+/* @import "tailwindcss";
+
+@theme {
+    --color-Gold-500: hsl(31, 77%, 52%);
+    --color-Cyan-800: hsl(184, 100%, 22%);
+    --color-Green-950: hsl(179, 100%, 13%);
+    --color-Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --color-Gray-100: hsl(0, 0%, 95%);
+
+} */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+
+
+}
+body{
+    font-family: 'arial',sans-serif;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh ;
+
+}
+.card-container{
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px white;
+    margin-top:1.7rem ;
+    margin-bottom: 1.7rem;
+    
+}
+.card-icon{
+    margin-bottom: 1.5rem;
+    width: 50px;
+}
+ button{
+    background-color: white;
+    border: 2px solid white;
+    padding-left: 15px ;
+    padding-right: 15px;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    font-size: x-small;
+    font-weight:bold;
+    cursor: pointer;
+    color: hsl(31, 77%, 52%);
+    margin-top: 20px;
+}
+button.lux{
+    color:hsl(179, 100%, 13%);
+}
+button.SUVs{
+    color:hsl(184, 100%, 22%);
+}
+h1{
+    font-size: x-large;
+    font-weight:bolder;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+}
+p{
+    padding: 2px;
+    color: white;
+    font-size: 0.7rem;
+    
+    
+}
+.card-sedan{
+    background-color:hsl(31, 77%, 52%);
+    padding: 2rem;
+    border-top-left-radius:8px ;
+    border-top-right-radius:8px ;
+}
+.card-suv{
+    background-color:hsl(184, 100%, 22%);
+    padding: 2rem;
+
+}
+.card-lux{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2rem;
+    border-bottom-left-radius: 8px ;
+    border-bottom-right-radius: 8px;
+}
+    
