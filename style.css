@@ -12,16 +12,6 @@
 
 body{
     font-family: 'arial',sans-serif;
-}
-
-.card-container{
-    max-width: 220px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-shadow: 0 4px 12px white;
-    margin-top:1.7rem ;
-    margin-bottom: 1.7rem;
     
 }
 .card-icon{
@@ -38,7 +28,6 @@ body{
     font-size: x-small;
     font-weight:bold;
     cursor: pointer;
-    color: hsl(31, 77%, 52%);
     margin-top: 20px;
 }
 button.lux{
